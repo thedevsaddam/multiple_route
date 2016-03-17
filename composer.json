@@ -1,0 +1,47 @@
+{
+    "name": "thedevsaddam/multiple_route",
+    "type": "package",
+    "description": "MultipleRoute generator is helpful create any number of routes for your large laravel project.",
+    "keywords": [
+        "thedevsaddam",
+        "multiple_route",
+        "laravel multiple route generator"
+    ],
+    "homepage": "https://github.com/thedevsaddam/multiple_route",
+    "license": "MIT",
+    "authors": [
+        {
+          "name": ":Saddam H",
+          "email": "thedevsaddam@gmail.com",
+          "homepage": "https://www.linkedin.com/in/thedevsaddam",
+          "role": "Developer"
+        }
+    ],
+    "require": {
+        "illuminate/support": "~5.1",
+        "php" : "~5.5|~7.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit" : "4.*",
+        "scrutinizer/ocular": "~1.1",
+        "squizlabs/php_codesniffer": "~2.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "thedevsaddam\\multiple_route\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "thedevsaddam\\multiple_route\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "phpunit"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    }
+}
